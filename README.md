@@ -62,7 +62,7 @@ yarn install
 
 ---
 
-#### 🔹 3. Rodar o Backend (Proxy para evitar CORS)
+#### 🔹 3. Apenas para conhecimento, existe um pequeno backend (Proxy para evitar CORS) que roda na render.com (https://franq-test-backend.onrender.com)
 
 ```bash
 git clone https://github.com/leoccomp/FranQ-Test-Backend.git

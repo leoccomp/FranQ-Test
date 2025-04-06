@@ -46,8 +46,8 @@ src/
 #### 🔹 1. Clonar o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-projeto.git
-cd seu-projeto
+git clone https://github.com/leoccomp/FranQ-Test.git
+cd FranQ-Test
 ```
 
 ---
@@ -65,9 +65,10 @@ yarn install
 #### 🔹 3. Rodar o Backend (Proxy para evitar CORS)
 
 ```bash
-cd backend
+git clone https://github.com/leoccomp/FranQ-Test-Backend.git
+cd FranQ-Test-Backend
 npm install
-npm run dev
+node server.js
 ```
 
 > ⚠️ O backend é uma API simples que faz proxy para a API real de dados financeiros. Ele roda por padrão em `http://localhost:3001`.
@@ -98,10 +99,6 @@ Os dados são atualizados automaticamente a cada 60 segundos usando `React Query
 
 ---
 
-### ✅ Funcionalidades
-
-- ***
-
 ### 📦 Scripts Úteis
 
 | Comando           | Descrição                                |
@@ -109,12 +106,6 @@ Os dados são atualizados automaticamente a cada 60 segundos usando `React Query
 | `npm run dev`     | Inicia o projeto em modo desenvolvimento |
 | `npm run build`   | Compila para produção                    |
 | `npm run preview` | Visualiza o build localmente             |
-
----
-
-### 🔪 Testes
-
-> (Caso queira adicionar testes futuramente, pode integrar com **Vitest**, **Jest** ou **Testing Library**.)
 
 ---
 
